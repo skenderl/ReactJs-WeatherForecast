@@ -1,0 +1,75 @@
+.rw-main {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, #0181c2, #04a7f9, #4bc4f7);
+  display: flex;
+}
+.rw-main h2 {
+  margin: 0 0 10px 0;
+  font-weight: 300;
+  font-size: x-large;
+  letter-spacing: 2px;
+}
+.rw-main .hr {
+  width: 100%;
+  height: 0;
+  border-bottom: solid 1px #fff;
+  opacity: 0.4;
+  margin: 10px 0;
+}
+.rw-main p {
+  margin: 0;
+}
+.rw-main.type-today {
+  border-radius: 7px;
+}
+.rw-main.type-5days {
+  border-radius: 0px;
+}
+.rw-main .rw-box-left {
+  padding: 25px;
+  width: 60%;
+}
+.rw-main .rw-box-right {
+  background-color: #0000001a;
+  border-radius: 0 7px 7px 0;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rw-main .rw-box-right i {
+  font-size: 200px;
+}
+.rw-main .rw-today .date {
+  color: #b5def4;
+}
+.rw-main .rw-today .current {
+  font-size: 45px;
+}
+.rw-main .rw-today .range {
+  color: #b5def4;
+  font-size: 12px;
+  margin: 0 0 5px 2px;
+}
+.rw-main .rw-today .desc {
+  color: #b5def4;
+  font-size: 16px;
+}
+.rw-main .rw-today .desc i {
+  font-size: 20px;
+  color: #b5def4;
+}
+.rw-main .rw-today .info {
+  color: #b5def4;
+}
+.rw-main .rw-today .info div {
+  margin-bottom: 5px;
+}
+.wind-svg {
+  width: 24px;
+  fill: #ffffff;
+  vertical-align: middle;
+  padding: 0px 16px;
+}
